@@ -1,0 +1,13 @@
+# 大檔與私人工作檔不上 GitHub
+*.mp4
+*.wav
+*_segments.json
+*_raw.srt
+__pycache__/
+# 本機交接檔不上傳
+目前進度.md
+工作紀錄.md
+任務清單.md
+# 本次完整成品不上傳，僅留 example
+星星的微光*.srt
+星星的微光*.mp4
