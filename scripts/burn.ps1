@@ -4,7 +4,7 @@ param(
   [Parameter(Mandatory = $true)][string]$Srt,
   [Parameter(Mandatory = $true)][string]$OutputVideo,
   [string]$FontName = "Microsoft JhengHei",
-  [int]$FontSize = 22
+  [int]$FontSize = 20
 )
 # 燒錄硬字幕：中文路徑先複製到英文暫存再燒，避免 subtitles 濾鏡跳脫問題
 $ErrorActionPreference = "Stop"
